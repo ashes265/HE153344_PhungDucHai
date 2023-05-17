@@ -1,0 +1,23 @@
+﻿@model BusinessObjects.Product
+@{
+    ViewData["Title"] = "Detail";
+}
+<h1>hahahahahahhaha</h1>
+@if (Model != null)
+{
+    <div class="form-group">
+        @Model.ProductId
+    </div>
+    <div class="form-group">
+        @Model.ProductName
+    </div>
+    <div class="form-group">
+        @Model.CategoryId
+    </div>
+    <div class="form-group">
+        @Model.UnitPrice
+    </div>
+     <div class="form-group">
+        @Model.UnitsInStock
+    </div>
+}
